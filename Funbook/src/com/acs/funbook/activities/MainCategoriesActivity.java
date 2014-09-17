@@ -1,13 +1,12 @@
 package com.acs.funbook.activities;
 
-import com.acs.funbook.R;
-import com.acs.funbook.adapters.MainCategoriesListAdapter;
-
-import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-public class MainCategoriesActivity extends Activity {
+import com.acs.funbook.R;
+import com.acs.funbook.adapters.MainCategoriesListAdapter;
+
+public class MainCategoriesActivity extends BaseActivity {
 	// http://www.smsbuzz.in/
 	private ListView livMainCategories;
 
