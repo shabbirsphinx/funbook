@@ -36,11 +36,11 @@ public class FunbookDAO {
 	
 	public static ArrayList<String> getAllCategories(final SQLiteDatabase db) {
 		ArrayList<String> allCategories = new ArrayList<String>();
-		String sql = "select col_1 from " + TABLE_NAME;
+		String sql = "select distinct col_1 from " + TABLE_NAME;
 		Cursor cursor = db.rawQuery(sql, null);
 		if (cursor != null) {
 			while (cursor.moveToNext()) {
-				allCategories.add(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_DATA)));
+				allCategories.add(cursor.getString(cursor.getColumnIndexOrThrow(COLUMN_CATEGORY)));
 			}
 		}
 		return allCategories;
