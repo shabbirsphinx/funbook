@@ -5,38 +5,39 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="Funbook">FunBook</string>
+    <string name="share">Share</string>
 
     <string-array name="main_categories">
-        <item>Onam SMS</item>
-        <item>Jokes</item>
-        <item>News</item>
-        <item>Tips</item>
+<!--         <item>Onam SMS</item> -->
+<!--         <item>Jokes</item> -->
+<!--         <item>News</item> -->
+<!--         <item>Tips</item> -->
         <item>Rajinikanth</item>
-        <item>Story</item>
+<!--         <item>Story</item> -->
         <item>Quotes</item>
-        <item>Santa Banta</item>
-        <item>Day Wishes</item>
+<!--         <item>Santa Banta</item> -->
+        <item>Wishes</item>
         <item>Friendship</item>
-        <item>Special</item>
-        <item>Shayari</item>
-        <item>Festival</item>
+<!--         <item>Special</item> -->
+<!--         <item>Shayari</item> -->
+<!--         <item>Festival</item> -->
         <item>Romantic Love</item>
-        <item>Quiz</item>
-        <item>Funny Stuff</item>
-        <item>Love</item>
-        <item>Friends</item>
-        <item>Adults</item>
-        <item>Greetings</item>
-        <item>Birthdays</item>
-        <item>Wedding and Marriages</item>
-        <item>Festivals</item>
-        <item>Special Days</item>
-        <item>Inspirational</item>
-        <item>Popular Categories</item>
-        <item>Brain</item>
-        <item>Teasers</item>
-        <item>Regional SMS</item>
-        <item>Others</item>
+<!--         <item>Quiz</item> -->
+<!--         <item>Funny Stuff</item> -->
+<!--         <item>Love</item> -->
+<!--         <item>Friends</item> -->
+<!--         <item>Adults</item> -->
+<!--         <item>Greetings</item> -->
+<!--         <item>Birthdays</item> -->
+<!--         <item>Wedding and Marriages</item> -->
+<!--         <item>Festivals</item> -->
+<!--         <item>Special Days</item> -->
+<!--         <item>Inspirational</item> -->
+<!--         <item>Popular Categories</item> -->
+<!--         <item>Brain</item> -->
+<!--         <item>Teasers</item> -->
+<!--         <item>Regional SMS</item> -->
+<!--         <item>Others</item> -->
     </string-array>
 
 </resources>

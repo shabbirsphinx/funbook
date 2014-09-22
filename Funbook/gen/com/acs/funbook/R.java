@@ -9,6 +9,23 @@ package com.acs.funbook;
 
 public final class R {
     public static final class array {
+        /**          <item>Quiz</item> 
+         <item>Funny Stuff</item> 
+         <item>Love</item> 
+         <item>Friends</item> 
+         <item>Adults</item> 
+         <item>Greetings</item> 
+         <item>Birthdays</item> 
+         <item>Wedding and Marriages</item> 
+         <item>Festivals</item> 
+         <item>Special Days</item> 
+         <item>Inspirational</item> 
+         <item>Popular Categories</item> 
+         <item>Brain</item> 
+         <item>Teasers</item> 
+         <item>Regional SMS</item> 
+         <item>Others</item> 
+         */
         public static final int main_categories=0x7f080000;
     }
     public static final class attr {
@@ -30,8 +47,9 @@ public final class R {
         public static final int activity_horizontal_margin=0x7f060000;
         public static final int activity_vertical_margin=0x7f060001;
         public static final int main_categories_text_size=0x7f060003;
-        public static final int padding_10dp=0x7f060004;
+        public static final int padding_10dp=0x7f060005;
         public static final int splash_text_size=0x7f060002;
+        public static final int sub_categories_text_size=0x7f060004;
     }
     public static final class drawable {
         public static final int background=0x7f020000;
@@ -39,12 +57,15 @@ public final class R {
     }
     public static final class id {
         public static final int livMainCategories=0x7f090000;
+        public static final int livSubCategories=0x7f090002;
         public static final int txtName=0x7f090001;
     }
     public static final class layout {
         public static final int main_categories=0x7f030000;
         public static final int main_categories_item=0x7f030001;
         public static final int splash=0x7f030002;
+        public static final int sub_categories=0x7f030003;
+        public static final int sub_categories_item=0x7f030004;
     }
     public static final class raw {
         public static final int funbook=0x7f040000;
@@ -54,5 +75,6 @@ public final class R {
         public static final int action_settings=0x7f070002;
         public static final int app_name=0x7f070000;
         public static final int hello_world=0x7f070001;
+        public static final int share=0x7f070004;
     }
 }

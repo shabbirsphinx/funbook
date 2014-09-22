@@ -21,7 +21,7 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 	private static String DATABASE_PATH;
 	private static final int DATABASE_VERSION = Config.DATABASE_VERSION;
 	private final Context context;
-	private SQLiteDatabase database = null;
+	private static SQLiteDatabase database = null;
 
 	public MySQLiteOpenHelper(Context context) {
 		super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -185,5 +185,8 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
 	}
-
+	
+	public static SQLiteDatabase getDb() {
+		return database;
+	}
 }
